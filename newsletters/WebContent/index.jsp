@@ -44,7 +44,7 @@
 			</tr>
 
 			<tr>
-					<th style="color: red; font-size:25px;">Newsletter:</th>
+					<th style="color: red; font-size:25px;">Destinatario:</th>
 					
 			</tr>
 
@@ -69,7 +69,8 @@
 					}
 				}
 			%>
-			<input type="text" size="80" maxlength="100" name="destinatario" value="<%=appo%>" />
+<%-- 			<input type="text" size="80" maxlength="100" name="destinatario" value="<%=appo%>" /> --%>
+				<textarea id="styled" rows="10" cols="100" maxlength="1000" name="destinatario"><%=appo%></textarea>
 			<%
 			}
 		    //System.out.println(request.getParameter("gruppo"));
